@@ -1,0 +1,152 @@
+* {
+	margin: 0px;
+    	padding: 0px;
+    	box-sizing: border-box;
+font-family: 'Source Sans 3', sans-serif;
+}
+.mainHeader {
+	height:90px;
+	width: 100%;
+    	border-top: 3px solid #2c4152;
+	background-color: #fff;
+    	border-bottom: 1px solid #e0e0e0;
+	display:flex;
+	
+	height:auto;
+    	box-shadow: 0 3px 6px 0 rgba(0,0,0,.2);
+	padding:0 80px;
+}
+
+
+.mainHeader .header .topRightLink {
+	display: flex;
+	float:right;
+
+}
+.mainHeader .header .topRightLink .signIn,.customerCare{
+	padding:10px 10px;
+	font-size:12px;
+	letter-spacing: 1.6px;
+	color: #2c4152;
+font-family: 'Source Sans 3', sans-serif;
+
+}
+.mainHeader .header .topRightLink .visitAjio{
+    	background-color: #000;
+	color:white;
+	font-size:12px;
+	padding: 11px;
+font-family: 'Source Sans 3', sans-serif;
+
+}
+.mainHeader .header .topLogoSection{
+    	display: inline-block;
+    	margin-top: 24px;
+        float: left;
+	width:10%;
+}
+.topCenterSection{
+	width:90%;
+	float:left;
+}
+.topCenterSection .topCenterNavigation{
+	    float: left;
+    margin-top: 10px;
+    margin-right: 6px;
+        margin-left: 118px;
+    text-align: right;
+
+}
+.topCenterSection .topCenterNavigation span{
+    cursor: pointer;
+font-size:16px;
+color:#333333;
+    letter-spacing: 0.8px;
+    padding: 0 16px;
+
+}
+.topCenterSection .topCenterRight{
+display:flex;
+    width: 362px;
+    float: right;
+   
+}
+.topCenterSection .topCenterRight input{
+	    width:112%;
+    float: left;
+height:34px;
+padding:0px 20px 0px 12px;
+border-radius:20px;
+background-color:#FFFDED;
+border: 1px solid black;
+}
+form{
+    padding-top: 4px;
+}
+input:focus {
+    outline: none;
+}
+.wishListIcon img{
+    padding-top: 4px;
+}
+.wishListIcon{
+margin-left:40px;
+}
+.cartIcon{
+margin-left:12px;
+}
+.bodySection div{
+margin-top:5px;
+}
+.bodySection div img{
+    width: -webkit-fill-available;
+}
+.indicators{
+display:flex;
+justify-content:center;
+padding-bottom:20px;
+}
+.line{
+        width: 40px;
+        height: 3px;
+        background:#ccc; 
+        
+    margin: 0 10px;
+}
+.imageCardOne,.imageCardTwo{
+display:flex;
+width:100%;
+ position: relative;
+}
+.imageCardOne div{
+width:33%;
+display:block;
+}
+.imageCardOne button{
+    position: absolute;
+        top: 50%;
+        left: 96%;
+        transform: translate(-50%, -50%);
+        width: 44px;
+        height: 44px;
+	border-radius:50%;
+	border:none;
+}
+.imageCardOne button span{
+color:grey;
+    font-size: 19px;
+}
+.imageCardTwo div{
+width:25%;
+display:block;
+}
+.imageCardTwo button{
+    position: absolute;
+        top: 50%;
+        left: 97%;
+        transform: translate(-50%, -50%);
+        width: 44px;
+        height: 44px;
+	border-radius:50%;
+	border:none;
+}
