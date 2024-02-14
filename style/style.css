@@ -95,9 +95,7 @@ margin-left:40px;
 .cartIcon{
 margin-left:12px;
 }
-.bodySection div{
-margin-top:5px;
-}
+
 .bodySection div img{
     width: -webkit-fill-available;
 }
@@ -149,4 +147,225 @@ display:block;
         height: 44px;
 	border-radius:50%;
 	border:none;
+}
+.imageCardThree,.imageCardFour,.imageCardFive{
+overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+.imageCardThree div,.imageCardFour div,.imageCardFive div{
+    width: 25%;
+    overflow: hidden;
+display: flex;
+}
+
+.thirteenImage{
+margin-top:1px;
+}
+.mainFooter{
+    width: 100%;
+    clear: both;
+}
+
+.footerListItem{
+display:flex;
+flex-direction:column;
+}
+.footerTop{
+   
+    font-size: 14px;
+    background-color: #fafafa;
+    display: inline-block;
+    width: 100%;
+}
+.footerInlineList{
+display:flex;
+}
+.footerTop .footerInlineList{
+width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #fafafa;
+}
+.footerTop .footerInlineList .footerListItem{
+   
+    width: 33%;
+    text-align: center;
+}
+.footerListItem span:last-child{
+padding-top:17px;
+
+}
+.footerListItem span:last-child strong{
+font-family:lora;
+color:#333333;
+}
+.footerBottom{
+    background-color: #2c4152;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    color: #ccc;
+    font-family: SourceSansPro;
+
+}
+.footerBody{
+background-color: #2c4152;
+    padding: 40px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footerBodyInner{
+border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.footerSupport{
+display: inline-block;
+    text-align: left;
+    width: 24%;
+    vertical-align: top;
+}
+.footerSupport .heading{
+    margin-bottom: 20px;
+    font-size: 14px;
+  
+    
+}
+.footerSupport .heading strong{
+  font-family: Lora;
+}
+.footerSupport .footerItems a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #ccc;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 8px;
+
+}
+.bodyLastSection{
+    width: 100%;
+    display: inline-block;
+}
+.footerPayment{
+float:left;
+}
+.footerPayment .paymentText{
+margin-bottom: 20px;
+    font-size: 14px;
+   
+   
+}
+.paymentText strong{
+ font-family: Lora;
+}
+.paymentMethodList div{
+display: inline-block;
+    margin-right: 15px;
+}
+.footerSecureSystem{
+    float: right;
+}
+.secureText{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.secureText strong{
+ font-family: Lora;
+}
+.mainBodyWatch{
+margin:10px 74.50px 0px;
+}
+.breadCrumbsSection{
+    padding-top: 10px;
+    letter-spacing: 1px;
+    color: #939393;
+    font-size: 11px;
+    float: left;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+.breadCrumbsListItems{
+list-style-type: none;
+    float: left;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.breadCrumbsListItems a{
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 1px;
+  font-size: 11px;
+}
+.secondBodySection{
+    float: left;
+    width: 100%;
+    bottom: 0;
+
+}
+.secondBodySection .facets{
+width: 20%;
+    min-height: 1000px;
+    float: left;
+    padding: 10px;
+}
+.facets .facetsHead{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 5px 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.facetsHead strong{
+    font-family: lora;
+color:#333333;
+}
+.facets .expandLess{
+float:right;
+}
+.genderText,.categoryText{
+display:flex;
+}
+.categoryText{
+margin-top:28px;
+}
+.genderText span:last-child,.categoryText span:last-child,.priceText span:last-child{
+font-size: 15px;
+    margin: 2px;
+    color: #333;
+    cursor: pointer;
+}
+.facetsBodyList{
+    margin-top: 6px;
+}
+.facetsBodyListItems{
+display:flex;
+    margin-bottom: 8px;
+}
+.facetsBodyListItems .square{
+margin-left:23px;
+    margin-right: 5px;
+    left: 0px;
+    color: #333;
+    font-size: 20px;
+    top: 3px;
+    font-weight: 400;
+}
+.facetsBodyListItems span:last-child{
+font-size: 15px;
+    margin: 2px;
+    color: #333;
+    cursor: pointer;
+font-family: sans-serif;
+}
+.priceText{
+display:flex;
+margin-top:22px;
+}
+.priceText .material-symbols-outlined{
+font-size:18px;
+    padding-top: 4px;
 }
