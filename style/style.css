@@ -557,7 +557,7 @@ input:focus {
 }
 
 .firstNav span {
-	font-weight: 600;
+	font-weight: 400;
 	color: #121212;
 	font-size: 14px;
 	margin: 0 5px;
@@ -603,3 +603,104 @@ input:focus {
 	margin-right: 10px;
 
 }
+.mainWatchDisplay{
+margin:0 95px;
+}
+.mainWatchDisplay span{
+font-size:13px;
+margin:0 7px 0 0;
+}
+.productImageGallery{
+margin-top:25px;
+
+}
+.productImageGallery img{
+    border: 1px solid #c2c2c2;
+    width: 63px;
+    height: 66px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.fillIcon {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.share{
+float:right;
+    border: 1px solid gray;
+    border-radius: 13px;
+    padding: 3px;
+    font-size: 17px;
+    color: gray;
+}
+.sideDetails h2{
+font-size:24px;
+font-weight:400;
+}
+.sideDetails h4{
+font-size:14px;
+}
+.icewatchPriceDetails div{
+font-size:20px;
+}
+.firstLine{
+    border-top: 3px solid #2c4152;
+}
+.cartHeader{
+margin:0 48.5px;
+
+}
+.headerMidNav {
+    width: 45%;
+    justify-content: flex-end;
+}
+.shoppingCart{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+font-size: 22px;
+}
+.locationCart,.rupeeCart{
+    width: fit-content;
+
+    border-radius: 50%;
+    padding: 3px;
+    border: none;
+}
+.headerMidNav hr{
+width:18%;
+}
+
+.headerMidNav .shoppingCart{
+color:white;
+background-color: #2c4152;
+}
+.headerMidNav .locationCart,.rupeeCart{
+color:white;
+background-color: #ededed;
+border: #ededed
+}
+.listCart div:first-child{
+margin-left:277px;
+
+}
+.listCart div:first-child span{
+color:#2c4152;
+font-size:14px;
+}
+.deliveryCart{
+margin-left:76px;
+}
+.paymentCart{
+margin-left:61px;
+}
+.deliveryCart span,.paymentCart span{
+color:#6d6d6d;
+font-size:14px;
+}
+
