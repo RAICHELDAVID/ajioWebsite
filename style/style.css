@@ -653,6 +653,7 @@ font-size:20px;
 }
 .cartHeader{
 margin:0 48.5px;
+border-bottom:1px solid #ededed;
 
 }
 .headerMidNav {
@@ -661,6 +662,12 @@ margin:0 48.5px;
 }
 .shoppingCart{
     border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+font-size: 22px;
+}
+.shoppingDelivery{
+    border: 1px solid #2c4152;
     border-radius: 50%;
     padding: 3px;
 font-size: 22px;
@@ -675,7 +682,13 @@ font-size: 22px;
 .headerMidNav hr{
 width:18%;
 }
+.locationDelivery{
+  width: fit-content;
 
+    border-radius: 50%;
+    padding: 3px;
+    border: none;
+}
 .headerMidNav .shoppingCart{
 color:white;
 background-color: #2c4152;
@@ -703,4 +716,290 @@ margin-left:61px;
 color:#6d6d6d;
 font-size:14px;
 }
+.headerMidNav .locationDelivery{
+color:white;
+background-color: #2c4152;
+}
+.headerMidNav .rupeeCart{
+color:white;
+background-color: #ededed;
+border: #ededed;
+}
+.headerMidNav .shoppingDelivery{
+color:black;
+background-color: white;
 
+}
+.shoppingDeliveryLine{
+    background-color: #2c4152;
+}
+.deliveryAddressSection{
+    margin: 0 48.5px;
+padding-top:40px;
+}
+.shippingLeftPanel{
+    width: 64%;
+    display: inline-block;
+    padding: 0 30px 0 0;
+border-bottom:1px solid lightgrey;
+}
+.deliverySubHeader,.deliveryAddressBox {
+    text-align: left;
+    padding: 0 30px 20px;
+}
+.deliverySubHeader span{
+    display: inline-block;
+    font-size: 40px;
+    color: #333;
+    font-weight: 200;
+}
+.deliveryAddressTextContainer{
+    color: #333;
+    font-size: 16px;
+}
+.deliveryAddressTextContainer strong{
+font-weight: 600;
+}
+.deliveryAddressTextContainer p{
+    color: #666666;
+}
+.nameTextRaichel{
+font-size:14px;
+    padding-top: 4px;
+    padding-right: 5px;
+    font-weight: 500;
+}
+.nameTextHome{
+    border: 1px solid black;
+    border-radius: 12%;
+    font-size: 10px;
+    padding: 4px;
+    text-transform: uppercase;
+}
+.deliveryAddressBox{
+margin-left: 15px;
+}
+.deliveryDetailsPanel .default{
+color:#866528;
+font-size:12px;
+padding:5px 0px 4px;
+font-weight: 600;
+}
+.addressLineOne{
+color:#6d6d6d;
+font-size:14px;
+}
+.deliveryDatePanel p{
+    font-size: 14px;
+    border: 1px dashed gray;
+    border-radius: 4%;
+    padding: 20px;
+}
+.deliveryDatePanel span{
+font-weight: 600;
+}
+.deliveryChangeAddressText span{
+font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .28px;
+    cursor: pointer;
+    margin: 0 40px 30px;
+    display: inline-block;
+    color: #176c93;
+}
+.shippingRightPanel{
+    margin-top: 20px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+
+   
+}
+.shippingRightWithoutButton{
+ border: 1px solid #f0f0f0;
+ padding: 13px}
+
+
+.shippingRightWithoutButton .orderDetailsTextBox{
+   
+    background-color: #fafafa;
+        padding-bottom: 10px;
+    margin-bottom: 0;
+    background: #fff;
+}
+.orderDetailsText{
+    font-family: mulish;
+    font-size: 16px;
+    font-weight: 600;
+}
+.price-summary {
+    margin-bottom: 2px;
+    display: inline-block;
+    width: 100%;
+}
+.price-summary .label {
+    float: left;
+    text-align: left;
+    font-weight: 400;
+    padding: 0;
+    color: #333;
+}
+.price-summary span {
+    font-size: 14px;
+    display: inline-block;
+}
+.price-summary .price-value {
+    float: right;
+    text-align: right;
+    color: #333;
+}
+.convenience-summary {
+    margin-bottom: 6px;
+}
+.convenienceFeeInfo {
+    color: #176d93;
+    margin-left: 6px;
+    font-size: 11px!important;
+    font-weight: 600;
+    cursor: pointer;
+}
+.convenienceFeeSummaryPrice .freeConvenience {
+    color: #866528;
+    margin-right: 4px;
+}
+.convenienceFeeSummaryPrice span:last-child {
+    text-decoration: line-through;
+}
+.convenienceFeeSummaryHeading, .order-summary .convenience-fee-summary .luxeConvenienceFeeSummaryHeading {
+    color: #6d6d6d;
+
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.price-summary .orderTotalText,.priceValueText{
+font-weight:600;
+}
+.payment-btn {
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    background-color: #866528;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.expectedDeliverySection{
+    padding: 30px 10px;
+}
+.expectedDeliveryFirstHeader{
+    text-align: left;
+    padding: 0 30px 20px;
+}
+.expectedDeliverySection{
+    margin: 0 48.5px;
+}
+.deliveryProductDate{
+        margin-left: 36px;
+}
+.deliveryProductDate span{
+display:block;
+}
+.dateAnalogueWatch{
+color:#666666;
+font-size:14px;
+}
+#deliveryFooter{
+border-top:1px solid lightgray;
+}
+.deliveryFooter div{
+margin-right:20px;
+}
+.deliveryFooter span{
+font-size:15px;
+color:#866528;
+}
+.paymentBody{
+    background-color: #fff;
+margin:0 110px;
+    padding-top: 30px;
+}
+.paymentLeftBody{
+width:70%;
+}
+.paymentOne{
+-webkit-flex-basis: 50%;
+    -moz-flex-basis: 50%;
+    -ms-flex-basis: 50%;
+  
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+    min-height: 85px;
+    border: dashed 1px #d7cbb0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+
+}
+.paymentOneImage img{
+width: 30px;
+    height: 8.86px;
+}
+.paymentOneText{
+    flex-basis: 80%;
+    margin-left: 32px;
+    color: #333;
+   
+    font-size: 12.5px;
+}
+.paymentOneText a{
+    font-weight: 600;
+    color: #176d93;
+}
+.view-expansion {
+    cursor: pointer;
+
+    font-weight: 600;
+    color: #176d93;
+    font-size: 12px;
+}
+.selectRedemOption{
+   
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.selectRedemOption strong{
+    font-family: mulish;
+}
+.verify-wallet>button {
+    width: 223px;
+color: #fff;
+    background-color: #866528;
+    border-color: #866528;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    line-height: 1.499;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    cursor: pointer;
+    height: 39px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border-color: #d9d9d9;
+}
+.verify-wallet .strongText{
+font-weight:600;
+}
