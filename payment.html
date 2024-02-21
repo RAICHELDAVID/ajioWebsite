@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Payment</title>
+      <link rel="stylesheet" href="./style/bootstrapnew.css">
+      <link rel="stylesheet" href="./style/css2.css">
+      <link rel="stylesheet" href="./style/css3.css">
+      <link rel="stylesheet" href="./style/css4.css">
+      <link rel="stylesheet" href="./style/style.css">
+   </head>
+   <body>
+      <div class="firstLine"></div>
+      <header class="cartHeader">
+         <div class="container-fluid d-flex">
+            <div class="mt-2 pl-5">
+               <img src="./assets/ajiologo.jpg" alt="#image" width="130" height="52">
+            </div>
+            <div class="d-flex pt-3 pb-3 pl-5 deliveryFooter">
+               <div>
+                  <img src="./assets/deliveryPayment.jpg" alt="#image">
+                  <span>SECURE PAYMENT</span>
+               </div>
+               <div>
+                  <img src="./assets/deliveryCash.jpg" alt="#image">
+                  <span>CASH ON DELIVERY</span>
+               </div>
+               <div>
+                  <img src="./assets/deliveryQuality.jpg" alt="#image">
+                  <span>ASSURED QUALITY</span>
+               </div>
+               <div>
+                  <img src="./assets/deliveryrecycle.jpg" alt="#image">
+                  <span>EASY RETURNS</span>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="paymentBody d-flex">
+         <div class="paymentLeftBody">
+            <div class="banners d-flex">
+               <div class="paymentOne">
+                  <div class="paymentOneImage">
+                     <img src="./assets/paymentOne.jpg">
+                  </div>
+                  <div class="paymentOneText">
+                     Get 10% Instant Discount of up to Rs. 1000 on a minimum transaction value of Rs 3500 using AU Credit Cards.<a href="#">T&C</a>
+                  </div>
+               </div>
+               <div class="paymentOne">
+                  <div class="paymentOneImage">
+                     <img src="./assets/paymentTwo.jpg">
+                  </div>
+                  <div class="paymentOneText">
+                     Get Upto 5% Instant Discount upto Rs. 1000 on minimum order value of Rs. 2999 on Reliance SBI Card Prime valid once per month. <a href="#">T&C</a>
+                  </div>
+               </div>
+            </div>
+            <div class="view-expansion mb-3">View 5 More</div>
+            <div class="selectOptionInPayment mb-3  d-flex justify-content-between">
+               <div class="selectHeadLine">
+                  <div class="selectRedemOption">
+                     <pre><strong>Select   Redeem   Option</strong></pre>
+                  </div>
+               </div>
+               <div class="verify-wallet">
+                  <span class="pr-1">
+                  <strong class="strongText">Verify OTP to use redemption options</strong>
+                  </span>
+                  <button type="button" class="ant-btn custom-pay-btn ant-btn-primary">
+                  <strong>Verify with OTP</strong>
+                  </button>
+               </div>
+            </div>
+            <div class="relianceOnePoint d-flex flex-column">
+		<div class="relianceOnePointFirstBox d-flex  justify-content-between">
+			
+			<div class="relianceColumnLeft d-flex">
+				<div class="d-flex">
+					<span class="material-symbols-outlined square">check_box_outline_blank</span>
+				</div>
+			<div class="relianceColumnLeft d-flex flex-column">
+				<div class="d-flex">
+					
+					<span id="reliance">RelianceOne Points</span>
+					<span class="newRed">NEW</span>
+				</div>
+				<div class="d-flex">
+					<span><strong id="reliance">Your current balance is ₹42.36</strong></span>
+					
+				</div>
+			</div>
+			</div>
+			<span class="relianceDetails">Details</span>
+			
+		</div>
+<span class="giftcard-divider"></span>
+		<div class="relianceOnePointSecondBox d-flex  justify-content-between">
+			
+			<div class="relianceColumnLeft d-flex">
+				<div class="d-flex">
+					<img src="./assets/giftCard.jpg" alt="#image" width="24" height="24">
+				</div>
+			<div class="relianceColumnLeft d-flex flex-column">
+				<div class="d-flex">
+					
+					<span id="reliance">Have a Gift Card?</span>
+					
+				</div>
+				<div class="d-flex">
+					<span id="ajioWallet">Add it to AJIO Wallet to pay for your orders</span>
+					
+				</div>
+			</div>
+			</div>
+			<span class="relianceDetails">Add Gift Card</span>
+			
+		</div>
+
+	</div>
+<div class="paymentRelianceSection">
+	<div class="selectPaymentMode d-flex mt-3 mb-3">
+		<pre><strong>Select   Payment   Mode</strong></pre>
+	</div>
+	<div class="relianceVerticalTab d-flex">
+		<div class="relianceVerticalTabList d-flex flex-column">
+			<div id="credit">
+				<strong>Credit/ Debit Card</strong>
+			</div>
+			<div id="secondList">
+				<strong>NetBanking</strong>
+			</div>
+			<div id="secondList">
+				<strong>Wallet</strong>
+			</div>
+			<div id="secondList">
+				<strong>UPI</strong>
+			</div>
+			<div id="secondList-disabled">
+				<strong>Cash on Delivery</strong>
+			</div>
+		</div>
+		<div class="relianceTableContent">
+			<div class="relianceInnerTable">
+				<div class="pe-heading">Add New Card</div>
+				<div>
+					<form>
+						<div class="custom-card-number-css">
+							<div><label class="card-form-label"> Card Number</label>
+								<div><input id="card_number" class="ant-input mb-3">
+								</div>
+							</div>
+							
+							
+						</div>
+						<div class="ant-col-18">
+							<div><label class="card-form-label">Name on Card</label>
+								<div><input id="name_on_card" class="ant-input">
+								</div>
+							</div>
+						</div>
+						<div class="ant-col-18">
+								<div class="d-flex justify-content-between">
+									<label class="card-form-label">Expiration Date</label>
+									<div class="card-form-label">
+										<span>CVV</span>
+										<span class="card-form-label-link">(What’s This?)</span>
+									</div>
+								</div>
+						</div>
+						<div class="monthDropDown d-flex">
+							<div class="dropdown mt-2">
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="monthText">Month</span><span class="material-symbols-outlined">expand_more</span></button>
+  									
+							</div>
+							<div class="dropdown mt-2">
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="yearText">Year</span><span class="material-symbols-outlined">expand_more</span></button>
+  									
+							</div>
+							<div class="dropdown mt-2">
+  								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="height:38px;"></button>
+  									
+							</div>
+						</div>
+						<div class="d-flex mt-3 checkPoint">
+							<span class="material-symbols-outlined">done</span>
+							<span id="saveCard">Save this card securely</span>
+						</div>
+						<div class="mb-2">
+						<button type="button" class="ant-btn custom-pay-btn ant-btn-primary mt-3"><strong>PAY ₹7429.00 SECURELY</strong></button>
+						</div>
+						<span id="teamsCondition">By placing this order, you agree to AJIO's T&C</span>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+         </div>
+         <div class="paymentRightBody">
+		
+
+
+		                    <div class="shippingRightWithoutButton">
+                        <div class="orderDetailsTextBox">
+                            <div class="orderDetailsText">Order Summary</div>
+                        </div>
+                        <section class="price-summary"><span class="label">Bag total</span><span class="price-value">₹14,800</span></section>
+                        <section class="price-summary"><span class="label">Bag discount</span><span class="price-value discount-price">₹7,400</span></section>
+                        <section class="price-summary convenience-summary" id="bagDiscount">
+                            <span class="label convenienceFeeInfoHeading" aria-label="Convenience Fee">Convenience Fee </span><span tabindex="0" role="button" class="convenienceFeeInfo" aria-label="What's this?">What's this?</span>
+                            <div class="convenience-fee-summary">
+                                <span class="convenienceFeeSummaryHeading" aria-label="Delivery Fee">Delivery Fee</span>
+                                <span class="price-value convenienceFeeSummaryPrice">
+                                    <div class="freeConvenienceBox"><span class="freeConvenience">Free</span><span class="desktopFreeConveniencePrice">₹99</span></div>
+                                </span>
+                            </div>
+                            <div class="convenience-fee-summary"><span class="convenienceFeeSummaryHeading" aria-label="Platform Fee">Platform Fee</span><span class="price-value convenienceFeeSummaryPrice">₹29</span></div>
+                        </section>
+                        <section class="price-summary"><span class="label bold-font orderTotalText">Order Total</span><span class="price-value bold-font priceValueText">₹7,429</span></section>
+			<section class="price-summary"><span class="label bold-font orderTotalText"><strong>Amount Payable</strong></span><span class="price-value bold-font priceValueText"><strong>₹7,429</strong></span></section>
+                    </div>		
+
+
+          
+         </div>
+
+      </div>
+<footer>
+            <div class="footerBottom">
+                <div class="footerBody">
+
+                    <div class="bodyLastSection">
+                        <div class="footerPayment">
+                            <div class="paymentText">
+                                <strong>Payment Methods</strong>
+                            </div>
+                            <div class="paymentMethodList">
+                                <div><span><img src="./assets/netBanking.jpg" alt="#netBanking"></span></div>
+                                <div><span><img src="./assets/visa.jpg" alt="#visa"></span></div>
+                                <div><span><img src="./assets/masterCard.jpg" alt="#masterCard"></span></div>
+                                <div><span><img src="./assets/cod.jpg" alt="#cod"></span></div>
+                                <div><span><img src="./assets/jioMoney.jpg" alt="#jioMoney"></span></div>
+                            </div>
+                        </div>
+                        <div class="footerSecureSystem">
+                            <div class="secureText">
+                                <strong>Secure systems</strong>
+                            </div>
+                            <div class="secureSystems">
+                                <div><span><img src="./assets/secure.jpg" alt="#secure"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+   </body>
+</html>

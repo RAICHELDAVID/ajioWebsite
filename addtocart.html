@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="./style/bootstrapnew.css">
+        <link rel="stylesheet" href="./style/css2.css">
+        <link rel="stylesheet" href="./style/css3.css">
+        <link rel="stylesheet" href="./style/css4.css">
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <div class="firstLine"></div>
+        <header class="cartHeader">
+            <div class="container-fluid d-flex">
+                <div class="col mt-4">
+                    <img src="./assets/ajiologo.jpg" alt="#image" width="130" height="52">
+                </div>
+                <div class="col d-flex flex-column">
+                    <div class="firstNav d-flex  justify-content-end">
+                        <span class="pt-2">Raichel David</span>
+                        <span class="pt-2">My Account</span>
+                        <span class="pt-2">Sign Out</span>
+                        <span class="pt-2">Customer Care</span>
+                        <div id="visitAjio">Visit Ajio</div>
+                    </div>
+                </div>
+            </div>
+            <div class="headerMidNav d-flex ">
+                <span class="material-symbols-outlined shoppingCart">shopping_bag</span>
+                <hr>
+                <span class="material-symbols-outlined locationCart">location_on</span>
+                <hr>
+                <span class="material-symbols-outlined rupeeCart">currency_rupee</span>
+            </div>
+            <div class="d-flex listCart">
+                <div><span>Bag</span></div>
+                <div class="deliveryCart"><span>Delivery Details</span></div>
+                <div class="paymentCart"><span>Payment</span></div>
+            </div>
+            </div>
+        </header>
+        <div class="cartPageMainBody m-5">
+            <div>
+                <img src="./assets/cartimg.jpg"  alt="#image">
+            </div>
+            <div class="cartPageFirstSection">
+                <div class="cartPageFirstSectionLeft">
+                    <div class="cartPageFirstSectionLeftHeadLine">
+                        <span><strong>My Bag</strong> (1 Item)</span>
+                        <span>+Add from Wishlist</span>
+                    </div>
+                    <div class="cartPageFirstSectionLeftContentOne d-flex justify-content-around">
+                        <img src="./assets/watchFront.png" alt="#image" width="134" height="168">
+                        <div class="contentFirstCartLeft">
+                            <span><strong>Ice Watches</strong> - </span>
+                            <span class="pr-3">16773 Date Analogue Watch</span>
+                            <span>Size</span>
+                            <span><strong>OS</strong></span>
+                            <span class="material-symbols-outlined pr-2">expand_more</span>
+                            <span>Qty</span>
+                            <span><strong>1</strong></span>
+                        </div>
+                        <div class="contentFirstCartRight d-flex flex-column">
+                            <div class="d-flex">
+                                <span class="material-symbols-outlined">expand_more</span>
+                                <span>Saving : <strong>Rs.7,400.00</strong></span>
+                            </div>
+                            <div class="d-flex">
+                                <span><del>&#x20B9;14,800</del>(50% off)</span>
+                                <img src="./assets/7400.png" alt="#image" width="50" height="20">
+                            </div>
+                            <div class="d-flex mt-5">
+                                <span class="pr-3 underline-text">Remove</span>
+                                <span class="underline-text">Move to Wishlist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shippingRightPanel float-right">
+                    <div class="shippingRightWithoutButton">
+                        <div class="orderDetailsTextBox">
+                            <div class="orderDetailsText">Order Details</div>
+                        </div>
+                        <section class="price-summary"><span class="label">Bag total</span><span class="price-value">₹14,800</span></section>
+                        <section class="price-summary"><span class="label">Bag discount</span><span class="price-value discount-price">₹7,400</span></section>
+                        <section class="price-summary convenience-summary" id="bagDiscount">
+                            <span class="label convenienceFeeInfoHeading" aria-label="Convenience Fee">Convenience Fee </span><span tabindex="0" role="button" class="convenienceFeeInfo" aria-label="What's this?">What's this?</span>
+                            <div class="convenience-fee-summary">
+                                <span class="convenienceFeeSummaryHeading" aria-label="Delivery Fee">Delivery Fee</span>
+                                <span class="price-value convenienceFeeSummaryPrice">
+                                    <div class="freeConvenienceBox"><span class="freeConvenience">Free</span><span class="desktopFreeConveniencePrice">₹99</span></div>
+                                </span>
+                            </div>
+                            <div class="convenience-fee-summary"><span class="convenienceFeeSummaryHeading" aria-label="Platform Fee">Platform Fee</span><span class="price-value convenienceFeeSummaryPrice">₹29</span></div>
+                        </section>
+                        <section class="price-summary"><span class="label bold-font orderTotalText">Order Total</span><span class="price-value bold-font priceValueText">₹7,429</span></section>
+                    </div>
+                    <a href="delivery.html"><div class="payment-btn proceedToShipping" data-test="onProceedToPayment" aria-label="Proceed to Payment" tabindex="0" role="button">PROCEED TO SHIPPING</div></a>
+                    <div class="applyCoupan mt-3">
+                        <p><strong>Apply Coupon</strong></p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter Coupon code" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary btn-dark applyButton" type="button" id="button-addon2">APPLY</button>
+                        </div>
+                        <p><strong>Applicable Coupons</strong></p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <p class="m-0">Savings : <strong>₹1</strong></p>
+                                <p class="m-0"><strong>FREESHIP</strong></p>
+                                <p class="m-0">Shipping on us for Your First Purchase.</p>
+                                <p class="m-0 lastParaRadio"><strong>T&C</strong></p>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                <p class="m-0">Savings : <strong>₹1</strong></p>
+                                <p class="m-0"><strong>FREEDEL</strong></p>
+                                <p class="m-0">Free Shipping on 799 and above. Just</p>
+                                <p class="m-0 lastParaRadio">for you.<strong>T&C</strong></p>
+                            </label>
+                        </div>
+                        <p class="mt-3"><strong>Non-Applicable Coupons</strong></p>
+                    </div>
+                    <div class="refundPolicy d-flex flex-column mt-3 mb-3">
+                        <p class="m-0"><strong>Return/Refund policy</strong></p>
+                        <p class="m-0">In case of return, we ensure quick refunds. Full</p>
+                        <p class="m-0">amount will be refunded excluding Convenience</p>
+                        <p class="m-0">Fee</p>
+                        <p class="m-0 readPolicy">Read policy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5 mb-5 deliveryFooter">
+                <div>
+                    <img src="./assets/deliveryPayment.jpg" alt="#image">
+                    <span>SECURE PAYMENT</span>
+                </div>
+                <div>
+                    <img src="./assets/deliveryCash.jpg" alt="#image">
+                    <span>CASH ON DELIVERY</span>
+                </div>
+                <div>
+                    <img src="./assets/deliveryQuality.jpg" alt="#image">
+                    <span>ASSURED QUALITY</span>
+                </div>
+                <div>
+                    <img src="./assets/deliveryrecycle.jpg" alt="#image">
+                    <span>EASY RETURNS</span>
+                </div>
+            </div>
+
+
+            <div class="footerTop">
+					<div class="footerInlineList">
+						<div class="footerListItem">
+							<span><img src="./assets/pickup.jpg"></span>
+							<span><strong>EASY EXCHANGE</strong></span>
+						</div>
+						<div class="footerListItem">
+							<span><img src="./assets/handpicked.jpg"></span>
+							<span><strong>100% HANDPICKED</strong></span>
+						</div>
+						<div class="footerListItem">
+							<span><img src="./assets/quality.jpg"></span>
+							<span><strong>ASSURED QUALITY</strong></span>
+						</div>
+					</div>
+				</div>
+        
+
+
+
+	</div>
+        <footer>
+            <div class="footerBottom">
+                <div class="footerBody">
+                    <div class="footerBodyInner">
+                        <section class="footerSupport">
+                            <div class="heading">
+                                <strong>Ajio</strong>
+                            </div>
+                            <div class="footerItems">
+                                <a href="#Who we are">Who We Are</a>
+                                <a href="#Join our team">Join Our Team</a>
+                                <a href="#teams and conditions">Teams & Conditions</a>
+                                <a href="#We Respect Your Privacy">We Respect Your Privacy</a>
+                                <a href="#Fees & Payments">Fees & Payments</a>
+                                <a href="#Returns & Refunds Policy">Returns & Refunds Policy</a>
+                                <a href="#Promotions Terms & Conditions">Promotions Terms & Conditions</a>
+                            </div>
+                        </section>
+                        <section class="footerSupport">
+                            <div class="heading">
+                                <strong>Help</strong>
+                            </div>
+                            <div class="footerItems">
+                                <a href="#Track Your Order">Track Your Order</a>
+                                <a href="#Frequently Asked Questions">Frequently Asked Questions</a>
+                                <a href="#Returns">Returns</a>
+                                <a href="#Cancellations">Cancellations</a>
+                                <a href="#Payments">Payments</a>
+                                <a href="#Customer Care">Customer Care</a>
+                                <a href="#How Do I Redeem My Coupon">How Do I Redeem My Coupon</a>
+                            </div>
+                        </section>
+                        <section class="footerSupport">
+                            <div class="heading">
+                                <strong>Shop by</strong>
+                            </div>
+                            <div class="footerItems">
+                                <a href="#Men">Men</a>
+                                <a href="#Women">Women</a>
+                                <a href="#Kids">Kids</a>
+                                <a href="#Indie">Indie</a>
+                                <a href="#Stores">Stores</a>
+                                <a href="#New Arrivals">New Arrivals</a>
+                                <a href="#Brand Directory">Brand Directory</a>
+                                <a href="#Home">Home</a>
+                                <a href="#Collections">Collections</a>
+                            </div>
+                        </section>
+                        <section class="footerSupport">
+                            <div class="heading">
+                                <strong>Follow us</strong>
+                            </div>
+                            <div class="footerItems">
+                                <a href="#Facebook>Facebook</a>
+                                <a href="#Instagram- AJIOlife">Instagram- AJIOlife</a>
+                                <a href="#Instagram- AJIO LUXE">Instagram- AJIO LUXE</a>
+                                <a href="#Twitter">Twitter</a>
+                                <a href="#Pinterest">Pinterest</a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="bodyLastSection">
+                        <div class="footerPayment">
+                            <div class="paymentText">
+                                <strong>Payment Methods</strong>
+                            </div>
+                            <div class="paymentMethodList">
+                                <div><span><img src="./assets/netBanking.jpg" alt="#netBanking"></span></div>
+                                <div><span><img src="./assets/visa.jpg" alt="#visa"></span></div>
+                                <div><span><img src="./assets/masterCard.jpg" alt="#masterCard"></span></div>
+                                <div><span><img src="./assets/cod.jpg" alt="#cod"></span></div>
+                                <div><span><img src="./assets/jioMoney.jpg" alt="#jioMoney"></span></div>
+                            </div>
+                        </div>
+                        <div class="footerSecureSystem">
+                            <div class="secureText">
+                                <strong>Secure systems</strong>
+                            </div>
+                            <div class="secureSystems">
+                                <div><span><img src="./assets/secure.jpg" alt="#secure"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>
